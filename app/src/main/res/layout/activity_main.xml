@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Violet"
+    tools:context=".MainActivity"
+    android:padding="40dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ss_header"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="250dp"></ImageView>
+        <TextView
+            android:layout_marginTop="330dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ss_tittle"
+            android:layout_below="@+id/ss_header"
+            android:text="Rezky Nur Fauzi"
+            android:fontFamily="@font/bold"
+            android:textSize="28sp"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ss_descr1"
+            android:layout_below="@+id/ss_tittle"
+            android:text="MYSELF APPS"
+            android:fontFamily="@font/regular"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"></TextView>
+    </RelativeLayout>
+</RelativeLayout>
